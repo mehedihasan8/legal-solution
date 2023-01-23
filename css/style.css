@@ -1,0 +1,15 @@
+.banner-img-1{
+    background-image: url('../images/lady-justice-law-library-concept.jpg');
+    background-position: center;
+    height: 100vh;
+}
+.banner-img-2{
+    background-image: url('../images/judges-gavel-scale-justice-black-table.jpg');
+    background-position: center;
+    height: 100vh;
+}
+.banner-img-3{
+    background-image: url('../images/law-justice-concept-dark-background.jpg');
+    background-position: center;
+    height: 100vh;
+}
