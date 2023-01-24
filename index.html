@@ -59,8 +59,8 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <button class="btn btn-secondary" type="submit">
-                Free Consultation
+              <button class="btn btn-secondary" type="button" data-bs-target="#exampleModal" data-bs-toggle="modal" >
+                Login
               </button>
             </form>
           </div>
@@ -107,7 +107,54 @@
 
       <!--End banner section  -->
 
+
+      <!-- Start Modal section  -->
+
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title text-center mx-auto fw-bold fs-5" id="exampleModalLabel">Please Sing In
+        </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+  <div class="mb-2">
+    <label for="exampleInputPassword1" class="form-label">Enter You Name</label>
+    <input type="text" class="form-control" id="exampleInputPassword1">
+  </div>
+
+  <div class="mb-2">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-2">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-2 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Done!</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- End Modal section  -->
+
+
+
     </header>
+
 
     <main>
 
@@ -299,7 +346,7 @@
 </div>
             </div>
             <div class="col-md-6 d-flex align-items-center ">
-              <img class="img-fluid w-75 px-5 text-center order-1 order-lg-last mx-auto py-5" src="images/Framee.png" alt="">
+              <img class="img-fluid w-100 px-5 text-center order-1 order-lg-last mx-auto py-5" src="images/Framee.png" alt="">
             </div>
           </div>
 
@@ -359,6 +406,7 @@
 
 
     <!-- bootstrap js file -->
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.js"></script>
   </body>
 </html>
